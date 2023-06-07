@@ -16,7 +16,8 @@ class MainActivity : AppCompatActivity() {
 
         WindowCompat.setDecorFitsSystemWindows(window, false)
 
-        window.applyCutout()
+        //applied as XML resource
+        //window.applyCutout()
 
         WindowCompat.getInsetsController(window, window.decorView).apply {
             isAppearanceLightStatusBars = false
