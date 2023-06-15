@@ -22,7 +22,8 @@ class MainActivity : AppCompatActivity() {
         //applied as XML resource
         //window.applyCutout()
 
-        startWindowIssue(false)
+        //startWindowIssue(false)
+        removeStatusBar()
     }
 
     private fun startWindowIssue(state: Boolean) {
